@@ -29,6 +29,7 @@ public class input {
         for(int i = 0 ; i<str.length ; i++){
             str[i] = in.next();
         }
+        str[1]="John";
         System.out.println(Arrays.toString(str));
 
     }
