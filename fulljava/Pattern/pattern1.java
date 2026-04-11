@@ -6,7 +6,7 @@ public class pattern1 {
     }
     static void pattern2(int n){
         for(int row = 1; row<=n;row++){
-            for(int col= 1;col<=n;col++){
+            for(int col= 1;col<=n-1;col++){
                 System.out.print(" * ");
             }
             System.out.println();
